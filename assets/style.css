@@ -164,7 +164,7 @@ body {
     background-color: black;
     font-family: 'Founders Grotesk Text Medium';
     color: white;
-    font-size: 18px;
+    font-size: 2rem;
     text-align: center;
     display: flex;
     align-items: center; 
@@ -173,10 +173,10 @@ body {
     vertical-align: middle;
     border: none;
     /*transition: all 100ms;*/
-    width: 75px;
-    height: 75px;
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
+    width: 150px;
+    height: 150px;
+    grid-column: 2 / 2;
+    grid-row: 1 / span 2;
     /* position: fixed;
     bottom: 0px;
     left: 0px; */
@@ -203,15 +203,14 @@ body {
 
 marquee {
     grid-column: 1 / 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    font-size: 7vw;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 6rem;
     margin: 0;
     padding: 5rem;
     width: 740rem;
     color: black;
     /* border: 1px solid black; */
-
 }
 
 .collection {
@@ -267,7 +266,7 @@ a:active{
     display: block;
     position: absolute;
     top: 150px;
-    left: 20px;
+    left: 75px;
     opacity: 0;
     z-index: 1;
     transition: ease-in-out 1s;
@@ -277,7 +276,7 @@ a:active{
     display: block;
     position: absolute;
     top: 150px;
-    left: 20px;
+    left: 75px;
     opacity: 2;
 }
 
@@ -285,7 +284,7 @@ a:active{
     display: block;
     position: absolute;
     top: 200px;
-    left: 100px;
+    left: 450px;
     opacity: 0;
     z-index: 2;
     transition: ease-in-out 1s;
@@ -295,15 +294,15 @@ a:active{
     display: block;
     position: absolute;
     top: 200px;
-    left: 50px;
+    left: 450px;
     opacity: 2;
 }
 
 .duckdog{
     display: block;
     position: absolute;
-    top: 450px;
-    left: 200px;
+    top: 500px;
+    left: 100px;
     opacity: 0;
     z-index: 3;
     transition: ease-in-out 1s;
@@ -312,16 +311,16 @@ a:active{
 .duckdog:hover{
     display: block;
     position: absolute;
-    top: 450px;
-    left: 200px;
+    top: 500px;
+    left: 100px;
     opacity: 2;
 }
 
 .bagdog{
     display: block;
     position: absolute;
-    top: 600px;
-    left: 175px;
+    top: 650px;
+    left: 225px;
     opacity: 0;
     z-index: 4;
     transition: ease-in-out 1s;
@@ -330,8 +329,8 @@ a:active{
 .bagdog:hover{
     display: block;
     position: absolute;
-    top: 600px;
-    left: 175px;
+    top: 650px;
+    left: 225px;
     opacity: 2;
 }
 
@@ -388,7 +387,7 @@ a:active{
             background-color: papayawhip;
             font-family: 'Founders Grotesk Text Medium';
             color: #D64A34;
-            font-size: 18px;
+            font-size:2rem;
         }
 
         .dark-mode marquee{
