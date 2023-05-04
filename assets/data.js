@@ -20,7 +20,6 @@ collection.forEach(function(item) {
     const itemDetails =
     `
         <p><em>${item.dateofBite}</em></p>
-        <p><em>${item.breed}</em></p>
         <p><em>Age: ${item.spayNeuter}</p>
         <p><em>${item.zipCode}</p>
     `
