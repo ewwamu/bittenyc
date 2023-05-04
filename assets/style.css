@@ -270,6 +270,8 @@ a:active{
     opacity: 0;
     z-index: 1;
     transition: ease-in-out 1s;
+    border-radius: 10px;
+    text-align:center;
 }
 
 .parkdog:hover{
@@ -288,6 +290,8 @@ a:active{
     opacity: 0;
     z-index: 2;
     transition: ease-in-out 1s;
+    border-radius: 10px;
+
 }
 
 .birthdaydog:hover{
@@ -306,6 +310,8 @@ a:active{
     opacity: 0;
     z-index: 3;
     transition: ease-in-out 1s;
+    border-radius: 10px;
+
 }
 
 .duckdog:hover{
@@ -324,6 +330,8 @@ a:active{
     opacity: 0;
     z-index: 4;
     transition: ease-in-out 1s;
+    border-radius: 10px;
+
 }
 
 .bagdog:hover{
@@ -342,6 +350,8 @@ a:active{
     opacity: 0;
     z-index: 5;
     transition: ease-in-out 1s;
+    border-radius: 10px;
+
 }
 
 .evil:hover{
