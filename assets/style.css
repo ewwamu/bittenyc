@@ -253,13 +253,13 @@ a {
 
 a:hover{
     color: white;
-    background-color: #D64A34;
+    background-color: black;
 
 }
 
 a:active{
     color: white;
-    background-color: #D64A34;
+    background-color: black;
 }
 
 .parkdog{
