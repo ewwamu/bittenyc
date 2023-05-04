@@ -63,13 +63,13 @@ collection.forEach(function(item) {
     //     }
     //   }
 
-    let listImage
+    // let listImage
 
-		if(item.image == './assets/dog1.jpg'){
-		listImage = 'div';
-		} else if (item.image == 'null'){
-        listImage = ''
-        }
+	// 	if(item.image == './assets/dog1.jpg'){
+	// 	listImage = 'div';
+	// 	} else if (item.image == 'null'){
+    //     listImage = ''
+    //     }
 
 
     // if(item.image) == false {
