@@ -413,13 +413,13 @@ a:active{
 
 .dark-mode a:hover{
     color: #D64A34;
-    background-color: white;
+    background-color: papayawhip;
 
 }
 
 .dark-mode a:active{
     color: #D64A34;
-    background-color: white;
+    background-color: papayawhip;
 }
 
 .dark-mode .title {
