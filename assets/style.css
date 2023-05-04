@@ -16,7 +16,7 @@ html {
       position: fixed;
       animation: move 11s linear infinite alternate;
       animation-timing-function: ease-in-out;
-      opacity: .5;
+      opacity: .4;
       z-index: 0;
     }
     
@@ -27,7 +27,7 @@ html {
     @keyframes move {
         0%   {
           top: 0px;
-          left: 0px;
+          left: 100px;
         }
         25% {
           top: 400px;
@@ -36,7 +36,7 @@ html {
         }
         50%   {
           top: 225px;
-          left: 0px;
+          left: 100px;
           transform: scaleX(1);
     
         }
@@ -49,7 +49,7 @@ html {
     
         100% {
           top: 400px;
-          left: 0px;
+          left: 100px;
           transform: scaleX(1);
     
         }
