@@ -205,7 +205,7 @@ marquee {
     grid-column: 1 / 2;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0;
     padding: 5rem;
     width: 740rem;
@@ -426,7 +426,7 @@ a:active{
     margin: 1rem;
     padding: .5rem 5rem .5rem 5rem;
     font-family: 'Founders Grotesk Text Bold';
-    font-size: 10vw;
+    font-size: 6rem;
     /* border-bottom: 1px solid black; */
     grid-column: 4 / span 5;
     grid-row: 1 /1;
